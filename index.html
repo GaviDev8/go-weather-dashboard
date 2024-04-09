@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css links -->
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
@@ -13,17 +12,17 @@
   <header>
     <h1>Weather Dashboard</h1>
   </header>
-<!-- body begins -->
-<main class="container">
-  <form id="search-form" class="form">
-    <input class="input" type="text" id="search-input" placeholder="Search your city"/>
-<div class="buttons">
-  <button class="button is-link is-dark">Search</button>
-</div>
-  </form>
-  <section id="today"></section>
-  <section id="forecast" class="row"></section>
-</main>
+  <!-- body of page begins -->
+  <aside>
+    <label for="search-form">City</label>
+    <input type="text" id="search-input" placeholder="Search your city"/>
+    <button id="searchButton">Search</button>
+  </aside>
+  <main class="weatherBlock">
+    <section id="today" class="todayWeather"></section>
+    <section id="forecast" class="row"></section>
+  </main>
+
 <!-- End of main body and beginning of footer -->
 <footer>
   <a href="https://gavidev8.github.io/go-portfolio/">Portfolio</a>
