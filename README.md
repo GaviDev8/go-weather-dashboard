@@ -1,6 +1,6 @@
-# go-weather-dashboard 🌤 
+## go-weather-dashboard 🌤 
 
-# Description
+## Description
 Welcome to our weather dashboard, designed to help you plan your trips with accurate weather forecasts for multiple cities. This tool enables users to add cities, check the 5-day forecast, and view detailed weather conditions including temperature, humidity, and wind speed.
 
 
@@ -19,9 +19,9 @@ To get started:
 2. Start on separating your files to keep things organized
 3. Start with HTML then JS and lastly CSS to decorate
 
-Live link
+Live link: https://gavidev8.github.io/go-weather-dashboard/
 
 ![Mock-up of weatherdashboard ](/assets/img/Screenshot%202024-04-08%20at%2010.53.12 PM.png)
 
-#License
+## License
 MIT License
