@@ -1,5 +1,5 @@
 // global variables
-document.addEventListener("DOMContentLoaded", function () {
+
   const weatherAPIKey = "f812babb8e064a3fb3c6e4e0ffd5591d";
   const weatherUrl = "http://api.openweathermap.org";
 
@@ -72,4 +72,4 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   searchForm.addEventListener("submit", weather);
-});
+
