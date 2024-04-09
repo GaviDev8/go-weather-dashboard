@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <!-- css links -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
 </head>
 <body>
-    
-    <script src="assets/js/homepage.js"></script>
+  <!-- Header begins -->
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+<!-- body begins -->
+<main class="container">
+  <form id="search-form" class="form">
+    <input class="input" type="text" id="search-input" placeholder="Search your city"/>
+<div class="buttons">
+  <button class="button is-link is-dark">Search</button>
+</div>
+  </form>
+  <section id="today"></section>
+  <section id="forecast" class="row"></section>
+</main>
+<!-- End of main body and beginning of footer -->
+<footer>
+  <a href="https://gavidev8.github.io/go-portfolio/">Portfolio</a>
+  <a href="https://github.com/GaviDev8">GitHub</a>
+</footer>
+
+    <!-- dayjs links -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/plugin/utc.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/plugin/timezone.min.js"></script>
+
+    <script src="./assets/js/homepage.js"></script>
 </body>
 </html>
